@@ -1,0 +1,4 @@
+server:
+  port: 8086
+country: Brazil
+message: 'Bem vindo ao calor!'
