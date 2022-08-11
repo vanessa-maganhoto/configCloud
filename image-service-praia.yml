@@ -1,1 +1,6 @@
-https://www.viagenscinematograficas.com.br/wp-content/uploads/2020/02/Melhores-Praias-do-Brasil-Capa.jpg
+server:
+  port: 8086
+image: 'https://www.viagenscinematograficas.com.br/wp-content/uploads/2020/02/Melhores-Praias-do-Brasil-Capa.jpg'
+message: 'Veja que praia linda'
+
+
