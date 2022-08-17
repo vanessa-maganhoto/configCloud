@@ -1,4 +1,8 @@
 server:
-  port: 8089
+  port: 8085
   servlet:
-    context-path: /usuario/
+    context-path: /weather/
+info:
+  author: Blabla
+  mail: blabla@gmail.com
+country: Brazil
