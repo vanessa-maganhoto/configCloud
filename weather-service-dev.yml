@@ -1,4 +1,6 @@
 server:
   port: 8086
+  servlet:
+    context-path: /api-weather/
 country: Brazil
 message: 'Bem vindo ao calor!'
