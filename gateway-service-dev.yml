@@ -8,7 +8,7 @@ spring:
         - id: apiweatherroute
           uri: lb://WEATHER-SERVICE
           predicates:
-            - Path=/weather/**
+            - Path=/api-weather/**
         - id: apiusuarioroute
           uri: lb://USUARIO-SERVICE
           predicates:
