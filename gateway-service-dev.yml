@@ -12,4 +12,4 @@ spring:
         - id: apiusuarioroute
           uri: lb://USUARIO-SERVICE
           predicates:
-           - Path=/usuario/**
+           - Path=/api-usuario/**
