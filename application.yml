@@ -1,24 +1,29 @@
 spring:
   zipkin:
-    base-url: http://zipkin-service:9411/
+    base-url: http://localhost:9411/
   rabbitmq:
     username: guest
     password: guest
-    host: rabbitmq-service
+    host: localhost
     port: 5672
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
 queue:
-  catalogo:
-    name: CarroQueue
   movie:
     name: MovieQueue
   serie:
     name: SerieQueue
+
 eureka:
   instance:
     hostname: localhost
   client:
     service-url:
-      defaultZone: http://eureka:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
+
 management:
   info:
     env:
@@ -33,9 +38,7 @@ management:
   endpoint:
     health:
       show-details: always
+
 info:
   author: Vanessa Matos
   mail: vanessammaganhoto@gmail.com
-server:
-  port: ${PORT:9999}
-message: Generic
