@@ -1,0 +1,12 @@
+spring:
+  zipkin:
+    base-url: http://zipkin-service:9411/
+  rabbitmq:
+    host: rabbitmq-service
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://eureka:8761/eureka/
