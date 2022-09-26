@@ -1,0 +1,11 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /catalogo/
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://db-catalogo:3306/catalogo
+    username: usuarioAplicacao
+    password: 123456789Tu
