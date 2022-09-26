@@ -1,0 +1,11 @@
+server:
+  port: 8087
+  servlet:
+    context-path: /serie/
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3303/series
+    username: usuarioAplicacao
+    password: 123456789Tu
