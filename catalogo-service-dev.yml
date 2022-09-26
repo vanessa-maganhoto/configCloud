@@ -1,5 +1,11 @@
 server:
-  port: 8086
+  port: 8084
   servlet:
     context-path: /catalogo/
-message: Mensagem catalogo. Foi recebido de Carros ->   
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3302/catalogo
+    username: usuarioAplicacao
+    password: 123456789Tu
